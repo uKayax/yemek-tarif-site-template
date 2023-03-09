@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://kit.fontawesome.com/a899171527.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="yemektarif.css">
+
+    <title>Yemek Tarif Sitesi</title>
+  </head>
+  <body style="background-color: #EEE">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="menu" >
+      <div class="container">
+        <a class="navbar-brand" href="index.html">yemek tarifleri</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menü
+            <i class="fas fa-bars ms-1"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+            <li class="nav-item"><a class="nav-link" href="index.html">Anasayfa</a></li>
+            <li class="nav-item"><a class="nav-link" href="#kategoriler">Tariflerimiz</a></li>
+            <li class="nav-item"><a class="nav-link" href="#haftanintarifleri">Haftanın Tarifleri</a></li>
+            <li class="nav-item"><a class="nav-link" href="#iletisim">İletişim</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 ">
+                <div class="receipe">
+                    <img src="resimler/icecekslider.jpg" alt="" style="width:100%; height: 500px; margin-top: 120px;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="receipe-content-area" >
+        <div class="container" style="background-color: white; border-radius: 10px; padding:50px; margin-bottom: 20px;">
+
+            <div class="row">
+                <div class="col-12 col-md-8">
+                    <div class="receipe-headline my-5">
+                        <span>1 Mart, 2021</span>
+                        <h2>Meyveli Kokteyl</h2>
+                        <div class="receipe-duration">
+                            <h6>Hazırlanma Süresi: 15 dakika</h6>
+                            <h6>Kişi Sayısı: 1 Kişilik</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                        <div class="receipe-ratings text-right my-5">
+                            <div class="ratings">
+                                <li class = "list-unstyled float-right">
+                                    <a href="#"><i class="fa-solid fa-star" style="color:orange"></i></a>
+                                    <a href="#"><i class="fa-solid fa-star" style="color:orange"></i></a>
+                                    <a href="#"><i class="fa-solid fa-star" style="color:orange"></i></a>
+                                    <a href="#"><i class="fa-solid fa-star" style="color:orange"></i></a>
+                                    <a href="#"><i class="fa-solid fa-star-half-stroke" style="color:orange"></i></a>
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-lg-8">
+                    <ul class ="tarif " id="tarifmargin">
+                   <li>Öncelikle kokteyl bardağına buzları ekleyelim.</li>
+                   <li>Üzerine istediğimiz kadar portakal suyu ekledikten sonra bir tatlı kaşığı yardımı ile kenarından yavaş yavaş şurubu ekleyelim.</li>
+                   <li>Hemen dibe çökecektir zaten en son maden suyumuzu yine bir tatlı kaşığı yardımı ile yavaşça dökelim kokteylimiz hazır. DENEYECEK OLANLARA AFİYET OLSUN.</li>
+
+                  </ul>
+                </div>
+
+            <div class="col-12 col-lg-4">
+                <div class="ingredients">
+                    <h4>İçindekiler</h4>
+
+              <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="customCheck1">
+                  <label class="custom-control-label" for="customCheck1">2 su bardağı portakal suyu (içerisine 1 yemek kaşığı şeker ekleyip karıştıralım)</label>
+              </div>
+
+              <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="customCheck2">
+                  <label class="custom-control-label" for="customCheck2">Yarım su bardağı Ahududu şurubu (veya isteğe bağlı başka bir meyve şurubu)</label>
+              </div>
+
+              <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="customCheck3">
+                  <label class="custom-control-label" for="customCheck3">Limonlu maden suyu (içerisine azıcık minnacık istediğiniz renk gıda boyası ekleyip karıştırılacak)</label>
+              </div>
+
+              <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="customCheck4">
+                  <label class="custom-control-label" for="customCheck4">Bir kaç tane buz</label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+    <footer class="text-center text-lg-start bg-light text-muted" id = "iletisim">
+      <div class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+        <div class="me-5 d-none d-lg-block">
+          <span>Bizi sosyal medyadan takip etmeyi unutmayın:</span>
+        </div>
+        <div>
+          <a class="btn btn-primary" style="background-color: #3b5998; border:none;" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+          <a class="btn btn-primary" style="background-color: #55acee; border:none;" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+          <a class="btn btn-primary" style="background-color: #dd4b39; border:none;" href="#!" role="button"><i class="fab fa-google"></i></a>
+          <a class="btn btn-primary" style="background-color: #ac2bac; border:none;" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+          <a class="btn btn-primary" style="background-color: #25d366; border:none;" href="#!" role="button"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <div class="">
+        <div class="container text-center text-md-start mt-5">
+          <div class="row mt-3">
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4" style="color: black;">
+                <i class="fas fa-gem me-3" style="color: #ac2bac;"></i> Yemek Tarifleri
+              </h6>
+              <p>Birbirinden farklı birçok tarifi burada bulabilirsiniz. </p>
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4" style="color: black;">Tarfiler</h6>
+              <p><a href="#!" class="text-reset text-decoration-none">Tatlı Tarifleri</a></p>
+              <p><a href="#!" class="text-reset text-decoration-none">Yemek Tarifleri</a></p>
+              <p><a href="#!" class="text-reset text-decoration-none">İçecek Tarifleri</a></p>
+            </div>
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4" style="color: black;">
+                Haftanın Tarifleri
+              </h6>
+              <p><a href="#!" class="text-reset text-decoration-none">Tatlı</a></p>
+              <p><a href="#!" class="text-reset text-decoration-none">İçecek</a></p>
+              <p><a href="#!" class="text-reset text-decoration-none">Yemek</a></p>
+            </div>
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <h6 class="text-uppercase fw-bold mb-4" style="color: black;">İletişim</h6>
+              <p><i class="fas fa-home me-3"></i> Konya, Turkiye</p><p>
+                <i class="fas fa-envelope me-3"></i>yemektarifleri@gmail.com</p>
+              <p><i class="fas fa-phone me-3"></i> 0332 555 55 55</p>
+              <p><i class="fas fa-print me-3"></i> 0555 555 55 55</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);"> © 2021 Copyright:
+        <a class="text-reset fw-bold">Tüm Hakları Saklıdır</a>
+      </div>
+    </footer>
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script src="scripts.js"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
